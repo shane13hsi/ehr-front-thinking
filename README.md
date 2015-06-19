@@ -1,17 +1,17 @@
 
-- 维护人员 奚杉杉
-- 创建时间 2015-06-19
+维护人员  | 奚杉杉
+创建时间  | 2015-06-19
 
 # TOC
 
-- [TL;DR;](#toc_1)
-- [问题域](#toc_2)
-- [当前非重点](#toc_3)
-  - [前端基础架子](#toc_4)
-  - [前端开发辅助工具搭建](#toc_5)
-  - [data fetching](#toc_6)
-  - [API 设计](#toc_7)
-  - [functional / reactive programming](#toc_8)
+- [TL;DR;](#user-content-tldr)
+- [问题域](#user-content-问题域)
+- [当前非重点](#user-content-当前非重点)
+  - [前端基础架子](#user-content-1-前端基础架子)
+  - [前端开发辅助工具搭建](#user-content-2-前端开发辅助工具搭建)
+  - [data fetching](#user-content-3-data-fetching)
+  - [API 设计](#user-content-4-api设计)
+  - [functional / reactive programming](#user-content-5-functionalreactive-programming)
 
 ## TL;DR;
 
