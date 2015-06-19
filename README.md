@@ -156,7 +156,7 @@ webpack 都是 low-level 的 API，具体使用看 gulpfile 就行。
 
 期望，发送请求时，给出 hook，设置为 loading，请求成功，请求失败，这样可以设置页面 loading 效果。其他优化需要深入研究
 
-### 4. API 设计
+### 4. API设计
 
 暂时未成熟，使用广义的 RESTful 接口。强依赖后端。前端 data-agnostic。
 
