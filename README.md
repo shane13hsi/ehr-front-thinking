@@ -13,7 +13,7 @@
   - [前端开发辅助工具搭建](#user-content-2-前端开发辅助工具搭建)
   - [data fetching](#user-content-3-data-fetching)
   - [API 设计](#user-content-4-api设计)
-  - [functional & reactive programming](#user-content-5-functionalreactive-programming)
+  - [functional & reactive programming](#user-content-5-functional--reactive-programming)
 
 ## TL;DR;
 
