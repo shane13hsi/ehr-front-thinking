@@ -132,9 +132,11 @@ pages 目录（*）
 1. 必须包装 Container（smart component），包括 data fetch（注1），stores 监听，获取 stores 值并使用 props 传递给 children。
 2. stores（注2） 和 actions 根据架构分层（注3），业务页面根据业务分层（smart，dumb，stylesheets）。
 
-注1：这里在 Container 的 componentDidMount 获取，也可以在 componentWillMount，也可以更复杂的，给出公共 static 接口，由 react-router 获取。这里选择最简单清晰的方式，没有看出这几个 hook 的区别，特别是 react-router。
-注2：简单应用 store 可以为一个（IdpStore）。除了代码量可能会变多之外，多个 stores 没有看出什么好处。另外，这一块也是未成熟的地方。暂时不深究，flux 也没有给出很好的解释。之后可以从其他设计得到灵感。
-注3：actions 包括 serverActionCreators 和 viewActionCreators）。这块和 pages 耦合紧密，可以放到 pages 里。
+**注1**：这里在 Container 的 componentDidMount 获取，也可以在 componentWillMount，也可以更复杂的，给出公共 static 接口，由 react-router 获取。这里选择最简单清晰的方式，没有看出这几个 hook 的区别，特别是 react-router。
+
+**注2**：简单应用 store 可以为一个（IdpStore）。除了代码量可能会变多之外，多个 stores 没有看出什么好处。另外，这一块也是未成熟的地方。暂时不深究，flux 也没有给出很好的解释。之后可以从其他设计得到灵感。
+
+**注3**：actions 包括 serverActionCreators 和 viewActionCreators）。这块和 pages 耦合紧密，可以放到 pages 里。
 
 ### 2. 前端开发辅助工具搭建
 
