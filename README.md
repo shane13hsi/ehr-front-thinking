@@ -4,14 +4,14 @@
 
 # TOC
 
-- [TL;DR;](toc_1)
-- [问题域](toc_2)
-  - [当前非重点](toc_3)
-    - [前端基础架子](toc_4)
-    - [前端开发辅助工具搭建](toc_5)
-    - [data fetching](toc_6)
-    - [API 设计](toc_7)
-    - [functional / reactive programming](toc_8)
+- [TL;DR;](#toc_1)
+- [问题域](#toc_2)
+  - [当前非重点](#toc_3)
+    - [前端基础架子](#toc_4)
+    - [前端开发辅助工具搭建](#toc_5)
+    - [data fetching](#toc_6)
+    - [API 设计](#toc_7)
+    - [functional / reactive programming](#toc_8)
 
 ## TL;DR;
 
