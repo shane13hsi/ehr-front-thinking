@@ -165,7 +165,7 @@ webpack 都是 low-level 的 API，具体使用看 gulpfile 就行。
 
 需要继续研究，改善前后端通讯。
 
-### 5. functional / reactive programming
+### 5. functional&reactive programming
 
 暂时不研究。
 
