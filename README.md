@@ -154,10 +154,7 @@ webpack 都是 low-level 的 API，具体使用看 gulpfile 就行。
 
 这里的是指 ajax lib 选择，目前使用最简单的 superagent 获取，简单加了两个插件，即 AOP 插件和 no-cache 插件。
 
-期望：
-
-1. 发送请求时，给出 hook，设置为 loading，请求成功，请求失败，这样可以设置页面 loading 效果
-2. 其他优化需要深入研究
+期望，发送请求时，给出 hook，设置为 loading，请求成功，请求失败，这样可以设置页面 loading 效果。其他优化需要深入研究
 
 ### 4. API 设计
 
