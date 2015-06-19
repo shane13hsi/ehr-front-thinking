@@ -6,12 +6,12 @@
 
 - [TL;DR;](#toc_1)
 - [问题域](#toc_2)
-  - [当前非重点](#toc_3)
-    - [前端基础架子](#toc_4)
-    - [前端开发辅助工具搭建](#toc_5)
-    - [data fetching](#toc_6)
-    - [API 设计](#toc_7)
-    - [functional / reactive programming](#toc_8)
+- [当前非重点](#toc_3)
+  - [前端基础架子](#toc_4)
+  - [前端开发辅助工具搭建](#toc_5)
+  - [data fetching](#toc_6)
+  - [API 设计](#toc_7)
+  - [functional / reactive programming](#toc_8)
 
 ## TL;DR;
 
@@ -32,11 +32,11 @@
 7. 全局样式和组件样式
 8. jQuery 等 DOM 操作
 
-### 当前非重点
+## 当前非重点
 
 满足以下条件：已经完成，对于目前可用，继续研究无太大突破，项目不紧急需要的特性。
 
-#### 1. 前端基础架子
+### 1. 前端基础架子
 
 目前方案已经经过面试管理和绩效前台/配置，IDP的项目实践，可以支撑未来几个项目开发。
 
@@ -132,7 +132,7 @@ pages 目录（*）
 注2：简单应用 store 可以为一个（IdpStore）。除了代码量可能会变多之外，多个 stores 没有看出什么好处。另外，这一块也是未成熟的地方。暂时不深究，flux 也没有给出很好的解释。之后可以从其他设计得到灵感。
 注3：actions 包括 serverActionCreators 和 viewActionCreators）。这块和 pages 耦合紧密，可以放到 pages 里。
 
-#### 2. 前端开发辅助工具搭建
+### 2. 前端开发辅助工具搭建
 
 已经成熟，在做服务端渲染前，可以冻结。
 
@@ -146,7 +146,7 @@ pages 目录（*）
 
 webpack 都是 low-level 的 API，具体使用看 gulpfile 就行。
 
-#### 3. data fetching
+### 3. data fetching
 
 上面 1 提到的是何时 fetch data，包括如何处理 async actions。
 
@@ -157,13 +157,13 @@ webpack 都是 low-level 的 API，具体使用看 gulpfile 就行。
 1. 发送请求时，给出 hook，设置为 loading，请求成功，请求失败，这样可以设置页面 loading 效果
 2. 其他优化需要深入研究
 
-#### 4. API 设计
+### 4. API 设计
 
 暂时未成熟，使用广义的 RESTful 接口。强依赖后端。前端 data-agnostic。
 
 需要继续研究，改善前后端通讯。
 
-#### 5. functional / reactive programming
+### 5. functional / reactive programming
 
 暂时不研究。
 
