@@ -19,6 +19,8 @@
 
 以下前端特质HR项目中实施的前端，关键词为：点评人力资源平台，PC端，ace admin，react，flux等。
 
+参考示例：[IDP 前端](http://code.dianpingoa.com/shanshan.xi/ehr-ace-seed)。IDP 非常简单，代码大多为架子代码，业务代码很少。
+
 ## 问题域
 
 以下为非合并罗列：
